@@ -88,3 +88,19 @@ outputs:
       lesion_count; 26-connectivity components), plus LST-AI's per-region
       stats <sub>_lesionregions.csv unless SEGMENT_ONLY.
     mediaTypes: [text/csv]
+
+# How a release is tested before it is made public: the inputs a review run uses.
+# See app-deploy-service docs/app-manifest-review.md.
+review:
+  version: 1
+  inputs:
+    t1w:
+      dataset:
+        doi: 10.18112/openneuro.ds000221.v1.0.0
+        files:
+          - sub-010200/ses-01/anat/sub-010200_ses-01_acq-mp2rage_T1w.nii.gz
+    flair:
+      dataset:
+        doi: 10.18112/openneuro.ds000221.v1.0.0
+        files:
+          - sub-010200/ses-01/anat/sub-010200_ses-01_acq-highres_FLAIR.nii.gz
