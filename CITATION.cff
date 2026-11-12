@@ -12,6 +12,7 @@ repository-code: https://github.com/pennsieve-apps/processor-lst-ai
 license: Apache-2.0
 keywords:
 - neuroimaging
+- neurology
 - mri
 - nifti
 - lst-ai
