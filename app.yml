@@ -16,7 +16,7 @@ application:
     cohort lesion volume (mm3) and count tables. Subjects lacking either volume
     are skipped; with no FLAIR at all the step writes empty outputs and succeeds.
   type: processor
-  tags: [neuroimaging, mri, nifti, lst-ai, lesions, wmh]
+  tags: [neuroimaging, neurology, mri, nifti, lst-ai, lesions, wmh]
 runtime:
   cpu: 4096
   memory: 16384
