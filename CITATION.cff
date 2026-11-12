@@ -1,5 +1,6 @@
 cff-version: "1.2.0"
-message: If you use this app, please cite it and the works it builds on, listed under references.
+message: >-
+  If you use this app, please cite the work it implements (preferred-citation), this release, and Pennsieve (RRID:SCR_021677); the other works it builds on are listed under references.
 type: software
 title: LST-AI Lesion Segmentation
 abstract: Segments white-matter hyperintensities (MS-type lesions) from paired T1w and FLAIR volumes with
@@ -16,6 +17,58 @@ keywords:
 - lst-ai
 - lesions
 - wmh
+# The work this app implements; the release report's "How to cite" puts it first.
+preferred-citation:
+  type: article
+  title: 'LST-AI: A deep learning ensemble for accurate MS lesion segmentation'
+  authors:
+  - family-names: Wiltgen
+    given-names: Tun
+  - family-names: McGinnis
+    given-names: Julian
+  - family-names: Schlaeger
+    given-names: Sarah
+  - family-names: Kofler
+    given-names: Florian
+  - family-names: Voon
+    given-names: CuiCi
+  - family-names: Berthele
+    given-names: Achim
+  - family-names: Bischl
+    given-names: Daria
+  - family-names: Grundl
+    given-names: Lioba
+  - family-names: Will
+    given-names: Nikolaus
+  - family-names: Metz
+    given-names: Marie
+  - family-names: Schinz
+    given-names: David
+  - family-names: Sepp
+    given-names: Dominik
+  - family-names: Prucker
+    given-names: Philipp
+  - family-names: Schmitz-Koep
+    given-names: Benita
+  - family-names: Zimmer
+    given-names: Claus
+  - family-names: Menze
+    given-names: Bjoern
+  - family-names: Rueckert
+    given-names: Daniel
+  - family-names: Hemmer
+    given-names: Bernhard
+  - family-names: Kirschke
+    given-names: Jan
+  - family-names: Mühlau
+    given-names: Mark
+  - family-names: Wiestler
+    given-names: Benedikt
+  year: 2024
+  journal: 'NeuroImage: Clinical'
+  volume: 42
+  start: '103611'
+  doi: 10.1016/j.nicl.2024.103611
 references:
 - type: article
   title: 'LST-AI: A deep learning ensemble for accurate MS lesion segmentation'
