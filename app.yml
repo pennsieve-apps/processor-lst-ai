@@ -95,11 +95,13 @@ review:
   version: 1
   inputs:
     t1w:
+      filePaths: source  # keep the dataset's BIDS folders
       dataset:
         doi: 10.18112/openneuro.ds000221.v1.0.0
         files:
           - sub-010200/ses-01/anat/sub-010200_ses-01_acq-mp2rage_T1w.nii.gz
     flair:
+      filePaths: source  # keep the dataset's BIDS folders
       dataset:
         doi: 10.18112/openneuro.ds000221.v1.0.0
         files:
